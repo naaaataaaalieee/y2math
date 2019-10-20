@@ -1,14 +1,10 @@
 # Find the mean of n numbers
-import random
-
-n = 10
+n = int(input("Please input number of numbers to calculate mean"))
 numbers = []
-
-for i in range(n):
-  numbers.append(random.randint(1,100)) # between 1 to 100 inclusive
-
 total = 0
+for i in range(n):
+  numbers.append(float(input("Please input the next number")))
 for number in numbers:
-  total += number
+  total = number + total
 print(numbers)
 print(total / n)
