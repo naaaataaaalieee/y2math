@@ -7,6 +7,7 @@ By programming your solutions to math problems, you
 
 Current topics:
 - Averages of Statistical Data (mean, median, mode)
+- Set theory (unique elements, intersection)
 
 Please contribute! Submit pull requests for
 - problems without solutions
