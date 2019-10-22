@@ -28,7 +28,7 @@ def compounded ():
     tk.Label(window, text="Total amount: $"+str(amount)).grid(row=10)
     return
 
-tk.Label(window, text="Principal amount: ").grid(row=2)
+tk.Label(window, text="Principle amount: ").grid(row=2)
 tk.Entry(window, textvariable=principal).grid(row=2, column=1)
 
 tk.Label(window, text="Interest rate: ").grid(row=3)
