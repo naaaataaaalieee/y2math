@@ -6,8 +6,8 @@ window.title("Compound interest formula")
 tk.Label(window, text="Calculate",
               fg="white", bg="black").grid(row=1)
 
-principal = tk.StringVar()
-principal.set("100")
+principle = tk.StringVar()
+principle.set("100")
 
 interest_rate = tk.StringVar()
 interest_rate.set("0.4")
@@ -19,7 +19,7 @@ total_time = tk.StringVar()
 total_time.set("5")
 
 def compounded ():
-    p = float(principal.get())
+    p = float(principle.get())
     r = float(interest_rate.get())
     n = float(number_of_compound_times.get())
     t = float(total_time.get())
@@ -28,8 +28,8 @@ def compounded ():
     tk.Label(window, text="Total amount: $"+str(amount)).grid(row=10)
     return
 
-tk.Label(window, text="Principal amount: ").grid(row=2)
-tk.Entry(window, textvariable=principal).grid(row=2, column=1)
+tk.Label(window, text="Principle amount: ").grid(row=2)
+tk.Entry(window, textvariable=principle).grid(row=2, column=1)
 
 tk.Label(window, text="Interest rate: ").grid(row=3)
 tk.Entry(window, textvariable=interest_rate).grid(row=3, column=1)
