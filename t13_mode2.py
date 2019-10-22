@@ -32,3 +32,7 @@ if len(mode) == n:
     print("No mode found")
 else: 
     print("Mode is / are: " + ', '.join(map(str, mode))
+          
+          
+          
+          
